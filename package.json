@@ -4,7 +4,7 @@
   "description": "",
   "main": "adding_big_number.js",
   "scripts": {
-    "start": "node adding_big_number.js",
+    "start": "node human_readable_format.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
