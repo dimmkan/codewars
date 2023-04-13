@@ -4,7 +4,7 @@
   "description": "",
   "main": "adding_big_number.js",
   "scripts": {
-    "start": "node sum_of_intervals.js",
+    "start": "node last_digit.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
