@@ -4,7 +4,7 @@
   "description": "",
   "main": "adding_big_number.js",
   "scripts": {
-    "start": "node find_cracker.js",
+    "start": "node clock_page_replacement_alg.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
