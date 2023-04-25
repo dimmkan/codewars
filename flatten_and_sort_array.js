@@ -18,4 +18,7 @@ http://stackoverflow.com/questions/6093874/why-doesnt-the-sort-function-of-javas
 
 const flattenAndSort = (array) => array.reduce((acc, item) => acc.concat(item),[]).sort((a,b) => a-b);
 
+//Optimize
+// const flattenAndSort = array => [].concat(...array).sort((a,b)=>a-b)
+
 console.log(flattenAndSort([[1, 3, 5], [100], [2, 4, 6]]));
