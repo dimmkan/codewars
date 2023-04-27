@@ -14,4 +14,4 @@ For example:
 5, 10, 2  -->  17
  */
 
-const goals = (a, b, c) => a+b+c;
+const goals = (a, b, c) => a + b + c;
