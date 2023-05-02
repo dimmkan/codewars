@@ -14,3 +14,6 @@ const countSheep = num => {
 }
 
 console.log(countSheep(2));
+
+// Optimize
+// const countSheep = num => [...Array(num)].map((_,i)=>i+1+' sheep...').join``;
