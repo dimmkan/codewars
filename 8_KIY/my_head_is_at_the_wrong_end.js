@@ -9,3 +9,5 @@ Simples!
  */
 
 const fixTheMeerkat = arr => [...arr.slice(-1), ...arr.slice(1, -1), arr[0]];
+
+// Otimize => arr.reverse()
