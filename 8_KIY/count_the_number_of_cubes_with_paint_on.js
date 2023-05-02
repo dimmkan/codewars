@@ -10,4 +10,4 @@ countSquares(2) --> 26
 countSquares(4) --> 98
 */
 
-const countSquares = cuts => 6 * cuts ** 2 + 2;
+const countSquares = cuts => cuts ? 6 * cuts**2 + 2 : 1;
