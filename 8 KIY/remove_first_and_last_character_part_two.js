@@ -18,3 +18,6 @@ Examples
  */
 
 const array = s => s.split(',').slice(1, -1).length ? s.split(',').slice(1, -1).join(' ') : null;
+
+// Optimize
+// const array = s => s.split(',').slice(1, -1).join(' ') || null;
