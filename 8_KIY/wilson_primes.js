@@ -18,3 +18,6 @@ const factorial = (n) => {
 }
 
 const amIWilson = (p) => (factorial(BigInt(p-1)) + 1n) % BigInt(p**2) == 0;
+
+// Fucking optimize
+// const amIWilson = p => [5, 13, 563].includes(p);
