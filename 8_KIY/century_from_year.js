@@ -14,3 +14,6 @@ Note: this kata uses strict construction as shown in the description and the exa
  */
 
 const century = y => ~~(y%100) ? ~~(y/100) + 1 : ~~(y/100);
+
+// Optimize
+// const century = year => Math.ceil(year/100)
