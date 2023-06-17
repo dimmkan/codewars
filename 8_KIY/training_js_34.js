@@ -104,6 +104,6 @@ cutCube(256,4) should return false
 The two examples above seems to meet our requirements, but please note: a cube is unable to evenly divided into 50 pieces or 4 pieces. Only cubic numbers(such as 8,27,64,125,216...) can be used to divide the cube evenly.
 */
 
-const isIntegerCube = n => Number.isInteger(Math.cbrt(n));
+const isIntCbrt = n => Number.isInteger(Math.cbrt(n));
 
-const cutCube = (volume, n) => isIntegerCube(n) && isIntegerCube(volume / n);
+const cutCube = (volume, n) => isIntCbrt(n) && isIntCbrt(volume / n);
