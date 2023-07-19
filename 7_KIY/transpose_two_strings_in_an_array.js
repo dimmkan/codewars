@@ -17,7 +17,7 @@ You don't have to modify the case (i.e. no need to change to upper or lower)
 If one string is longer than the other, there should be a space where the character would be
 */
 
-const transposeTwoStrings = arr => arr.reduce((acc, item, index, array) => {
+const transposeTwoStrings = arr => arr.reduce((acc, _, index, array) => {
   if (index != 0) {
     return acc;
   };  
