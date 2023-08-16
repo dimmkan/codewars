@@ -4,7 +4,7 @@
   "description": "",
   "main": "adding_big_number.js",
   "scripts": {
-    "start": "node ./7_KIY/find_duplicates.js",
+    "start": "node ./7_KIY/log_witout_dates.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
