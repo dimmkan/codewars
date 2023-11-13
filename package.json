@@ -4,7 +4,7 @@
   "description": "",
   "main": "adding_big_number.js",
   "scripts": {
-    "start": "node ./7_KIY/queue_time_counter.js",
+    "start": "node ./7_KIY/alphabetize_a_list_the_nth_char.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
