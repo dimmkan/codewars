@@ -31,8 +31,4 @@ First and last bits as set bits.
 First and last bits as set bits.
 */
 
-function extraPerfect(n) {
-    let arr = [1];
-    for (let i = 3; i <= n; i += 2) arr.push(i);
-    return arr;
-}
+const extraPerfect = n => Array.from({ length: n }, (_, i) => (i + 1) % 2 === 1 ? i + 1 : null).filter(v => !!v);
