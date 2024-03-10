@@ -1,4 +1,4 @@
-ma/*
+/*
 Description:
 You are writing a function that takes two sets of arguments of arbitrary length. The return value will be the sum of the values of all of the arguments.
 
